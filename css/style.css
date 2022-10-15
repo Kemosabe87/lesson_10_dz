@@ -1,0 +1,195 @@
+/*====== Це константа для wrapper-a =========*/
+/* .wrapper{
+	position: relative;
+	overflow: hidden;
+	min-height: 100%;
+} */
+
+body {
+	font-family: "Lato", serif;
+	font-size: 16px;
+	color: #424551;
+	line-height: 1.6;
+}
+[class*="__container"] {
+	max-width: 810px;
+	margin: 0 auto;
+}
+.main {
+}
+.article {
+}
+.article__container {
+}
+.article__title {
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 1.3;
+	margin-bottom: 90px;
+	color: #1e212c;
+}
+.article__image {
+	margin-bottom: 60px;
+	max-width: 100%;
+}
+.text__main {
+	margin-bottom: 24px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+}
+.text__paragraph {
+	margin-bottom: 48px;
+	line-height: 1.6;
+}
+.text__paragraph p:first-child {
+	margin-bottom: 20px;
+}
+.text__quote {
+	margin-bottom: 48px;
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 1.5;
+	color: #1e212c;
+	position: relative;
+	padding-left: 58px;
+}
+.text__quote::before {
+	content: "";
+	background: url("../img/Icon/braces.svg") 0 0 / 100% no-repeat;
+	width: 28px;
+	height: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	min-height: 20px;
+}
+.text__title {
+	margin-bottom: 24px;
+}
+.text__list {
+	margin-bottom: 24px;
+}
+.list__item {
+	padding-left: 30px;
+	position: relative;
+	min-height: 16px;
+}
+.list__item::before {
+	content: "";
+	background: url("../img/Icon/Vector.svg") 0 0 / 100% no-repeat;
+	width: 16px;
+	height: 16px;
+	position: absolute;
+	top: 4px;
+	left: 0;
+}
+
+.list__item:not(:last-child) {
+	margin-bottom: 4px;
+}
+.text__bottom {
+	margin-bottom: 50px;
+}
+
+.why-createx {
+}
+.createx {
+}
+.createx__container {
+}
+.createx__img {
+	margin-bottom: 30px;
+}
+.createx__subtitle {
+	margin-bottom: 20px;
+}
+.subtitle {
+}
+.createx__title {
+	margin-bottom: 20px;
+}
+.title {
+}
+.createx__list {
+	margin-bottom: 20px;
+}
+.list {
+}
+.list__item {
+}
+.createx__button {
+	margin-bottom: 60px;
+}
+.button {
+}
+
+.featured {
+}
+.featured__container {
+}
+.featured__subtitle {
+	margin-bottom: 20px;
+}
+.subtitle {
+}
+.featured__title {
+	margin-bottom: 40px;
+}
+.title {
+}
+.featured__button {
+}
+.button {
+}
+.featured__card {
+	margin-bottom: 30px;
+}
+.card {
+}
+.card__img {
+}
+.card__subtitle {
+}
+.card__title {
+}
+.card__price {
+}
+
+.benefits {
+}
+
+.benefits__container {
+}
+.benefits__subtitle {
+	margin-bottom: 10px;
+}
+.subtitle {
+}
+.benefits__title {
+	margin-bottom: 20px;
+}
+.title {
+}
+.benefits__list {
+	margin-bottom: 30px;
+}
+.list {
+}
+.list__link--border {
+}
+.list__link {
+}
+.benefits__tutors {
+}
+.tutors {
+}
+.tutors__title {
+	margin-bottom: 10px;
+}
+.tutors__text {
+	margin-bottom: 20px;
+}
+.benefits__img {
+}
